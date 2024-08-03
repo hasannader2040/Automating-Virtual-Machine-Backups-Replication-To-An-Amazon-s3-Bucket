@@ -12,4 +12,4 @@ Automate the backup replication to an Amazon S3 Bucket.
   Interface (CLI) for secure and efficient uploads to Amazon S3.
 
 
-1 of one.PNG
+![1 of one](https://github.com/user-attachments/assets/f0b50f7c-7e59-484e-b284-56ca0aecde48)
