@@ -10,3 +10,6 @@ Automate the backup replication to an Amazon S3 Bucket.
 - Logging: Create log files to record backup operations, including start time, end time, and any errors encountered during the backup.
 - AWS Integration: Seamlessly integrate with the AWS Command Line
   Interface (CLI) for secure and efficient uploads to Amazon S3.
+
+
+1 of one.PNG
