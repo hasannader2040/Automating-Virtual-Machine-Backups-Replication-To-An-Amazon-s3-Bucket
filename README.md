@@ -15,41 +15,28 @@ Automate the backup replication to an Amazon S3 Bucket.
 
 ![1 of one](https://github.com/user-attachments/assets/f0b50f7c-7e59-484e-b284-56ca0aecde48)
 =======
-# User Account Management Using A Bash Script
 
 ## Purpose
-This project provides a Bash script for managing user accounts on a Linux system. It aims to automate tasks like adding, deleting, and modifying user accounts, which is useful for system administrators to streamline user management.
+This project automates the process of backing up critical data from a virtual machine (EC2 Instance) in AWS. It includes compressing data, scheduling backups, and replicating backups to an Amazon S3 bucket.
 
 ## Project Context
-This script is part of a larger system administration project aimed at simplifying user account management on Linux-based systems.
+This script is designed for system administrators who need to automate and manage data backups in AWS environments.
 
 ## How to Run the Code
-1. Clone the repository: `git clone https://github.com/hasannader2040/User-Account-Management-Using-A-Bash-Script.git`
-2. Navigate to the directory: `cd User-Account-Management-Using-A-Bash-Script`
-3. Make the script executable: `chmod +x user-mangment.sh`
-4. Run the script: `./user-mangment.sh`
+1. Clone the repository:
+   
+bash
+   git clone https://github.com/hasannader2040/bash-script-Scheduling-to-Automate-VM-Data-Backups-Replication-to-an-Amazon-S3-Bucket-.git
 
-## Tools Used
-- **Bash**: For scripting.
-- **Linux command line utilities**: `useradd`, `userdel`, `usermod`, etc.
+## How to Run the Code
 
-## Usage Examples
-1. **Add a user**: 
-   ```bash
-   ./user-mangment.sh add <username>
+2. **Navigate to the directory**:
+bash
+   cd bash-script-Scheduling-to-Automate-VM-Data-Backups-Replication-to-an-Amazon-S3-Bucket-
 
-## Delete a user:
-./user-mangment.sh delete <username>
+## How to Run the Code
 
-## Modify a user:
-./user-mangment.sh modify <username> <options>
-
-## finally 
-## Additional Information
-This script should be run with root or sudo privileges to perform user management tasks.
-
-
-You can copy this into your README.md file to document your project. If you need any adjustments or further details, feel free to ask!
->>>>>>> d8a2bcd (adding README.md)
-
-
+3. **Make the script executable**:
+   
+bash
+   chmod +x backup-script.sh
