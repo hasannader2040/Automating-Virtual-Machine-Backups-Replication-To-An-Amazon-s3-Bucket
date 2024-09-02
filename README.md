@@ -25,18 +25,25 @@ This script is designed for system administrators who need to automate and manag
 ## How to Run the Code
 1. Clone the repository:
    
-bash
+```bash
    git clone https://github.com/hasannader2040/bash-script-Scheduling-to-Automate-VM-Data-Backups-Replication-to-an-Amazon-S3-Bucket-.git
+```
+
 
 ## How to Run the Code
 
 2. **Navigate to the directory**:
-bash
+
+```bash
    cd bash-script-Scheduling-to-Automate-VM-Data-Backups-Replication-to-an-Amazon-S3-Bucket-
+```
 
 ## How to Run the Code
 
 3. **Make the script executable**:
    
-bash
+```bash
+
    chmod +x backup-script.sh
+
+```
