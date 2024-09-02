@@ -44,10 +44,12 @@ This script is part of a larger system administration project aimed at simplifyi
 ## Modify a user:
 ./user-mangment.sh modify <username> <options>
 
-
+## finally 
 ## Additional Information
 This script should be run with root or sudo privileges to perform user management tasks.
 
 
 You can copy this into your README.md file to document your project. If you need any adjustments or further details, feel free to ask!
 >>>>>>> d8a2bcd (adding README.md)
+
+
