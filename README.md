@@ -96,7 +96,7 @@ Add this line to schedule daily at midnight:
 ```
 
 ```bash
-Copy code
+
 0 0 * * * /path/to/backup-script.sh
 Manually run a backup:
 ```
