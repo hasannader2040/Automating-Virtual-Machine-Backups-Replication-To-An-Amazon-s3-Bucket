@@ -4,11 +4,11 @@ Create a bash script that runs on a schedule to compress and backup critical dat
 Automate the backup replication to an Amazon S3 Bucket.
 • Key Features:
 
-- Backup Scheduling: Allow users to schedule backups at specific times or intervals (e.g., daily, weekly, or monthly)
-- Backup Compression: Compress the backup files to save storage space using
+- **Backup Scheduling:** Allow users to schedule backups at specific times or intervals (e.g., daily, weekly, or monthly)
+- **Backup Compression:** Compress the backup files to save storage space using
   the tar command with gzip (tar -czf) or other compression methods.
-- Logging: Create log files to record backup operations, including start time, end time, and any errors encountered during the backup.
-- AWS Integration: Seamlessly integrate with the AWS Command Line
+- **Logging:** Create log files to record backup operations, including start time, end time, and any errors encountered during the backup.
+- **AWS Integration:** Seamlessly integrate with the AWS Command Line
   Interface (CLI) for secure and efficient uploads to Amazon S3.
 
 <<<<<<< HEAD
@@ -18,8 +18,7 @@ Automate the backup replication to an Amazon S3 Bucket.
 
 
 ## Purpose
-This project automates the process of backing up critical data from a virtual machine (EC2 Instance) in AWS. It includes compressing data, scheduling backups, and replicating backups to an Amazon S3 bucket.
-This project automates the process of backing up critical data from a virtual machine (EC2 Instance) in AWS. It includes compressing data, scheduling backups, and replicating backups to an Amazon S3 bucket.
+it automates the process of backing up critical data from a virtual machine (EC2 Instance) in AWS. It includes compressing data, scheduling backups, and replicating backups to an Amazon S3 bucket. 
 
 ## Project Context
 This script is designed for system administrators who need to automate and manage data backups in AWS environments.
